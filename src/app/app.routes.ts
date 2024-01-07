@@ -6,10 +6,10 @@ import { StackComponent } from './components/stack/stack.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [
-    { path:'', redirectTo:'/home', pathMatch: 'full' },
-    { path:'/home', component:HomeComponent },
-    { path:'/about', component:AboutComponent },
-    { path:'/projects', component:ProjectsComponent },
-    { path:'/stack', component:StackComponent },
-    { path:'contact', component:ContactComponent }
+    { path:'', redirectTo:'/inicio', pathMatch: 'full' },
+    { path:'inicio', component:HomeComponent },
+    { path:'sobremi', component:AboutComponent },
+    { path:'projectos', component:ProjectsComponent },
+    { path:'tecnologías', component:StackComponent },
+    { path:'contacto', component:ContactComponent }
 ];
