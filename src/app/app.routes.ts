@@ -10,6 +10,6 @@ export const routes: Routes = [
     { path:'inicio', component:HomeComponent },
     { path:'sobremi', component:AboutComponent },
     { path:'projectos', component:ProjectsComponent },
-    { path:'tecnologías', component:StackComponent },
+    { path:'tecnologias', component:StackComponent },
     { path:'contacto', component:ContactComponent }
 ];
